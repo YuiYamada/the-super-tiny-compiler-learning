@@ -1,4 +1,4 @@
-import {NODE_TYPE, TOKEN} from "./constants";
+import {NODE_TYPE, TOKEN} from "./constants.ts";
 
 export type Token = {
     type: typeof TOKEN[keyof typeof TOKEN];
